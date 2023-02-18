@@ -1,0 +1,19 @@
+{
+    "name": "hexxondiv/blogpackage",
+    "description": "A demo package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexxondiv\\Blogpackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hexxondiv",
+            "email": "hexxondiv@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
