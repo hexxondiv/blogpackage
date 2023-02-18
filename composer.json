@@ -1,19 +1,34 @@
 {
-    "name": "hexxondiv/blogpackage",
-    "description": "A demo package",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hexxondiv\\Blogpackage\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Hexxondiv",
-            "email": "hexxondiv@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "hexxondiv/blogpackage",
+  "description": "A demo package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hexxondiv\\Blogpackage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hexxondiv\\Blogpackage\\Tests\\": "tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hexxondiv",
+      "email": "hexxondiv@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.6"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hexxondiv\\Blogpackage\\BlogPackageServiceProvider"
+      ]
+    }
+  }
 }
