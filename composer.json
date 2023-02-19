@@ -28,7 +28,10 @@
     "laravel": {
       "providers": [
         "Hexxondiv\\Blogpackage\\BlogPackageServiceProvider"
-      ]
+      ],
+      "aliases":{
+        "Calculator":"Hexxondiv\\Blogpackage\\Facades\\Calculator"
+      }
     }
   }
 }
